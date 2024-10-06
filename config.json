@@ -1,0 +1,37 @@
+{
+    "token": "",
+    "language": "en",
+    "prefix": "!",
+    "mongodbUri": "mongodb+srv://trusteddanger160:KtehhmprR1WFjs5L@gidobottt.ryjcc.mongodb.net/?retryWrites=true&w=majority&appName=GidoBottt",
+    "geniusToken": "0CHr9jtPjR7EKraXUVv6__8ELmEwFeUwt5vYAhk-is_fGOq-10-epdMzESkMPUnf",
+    "excessCommands": {
+        "utility": true,
+        "other": true,
+        "hentai": true,
+        "troll": true
+    },
+    "categories": {
+        "anime": true,
+        "basic": true,
+        "utility": true,
+        "moderation": true,
+        "fun": true,
+        "distube music": true,
+        "lavalink": true,
+        "setups": true
+    },
+    "lavalink": {
+        "lavalink": {
+            "host": "lavalinkv3-id.serenetia.com",
+            "port": 443,
+            "password": "BatuManaBisa",
+            "secure": true
+        }
+    },
+    "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
+    "spotifyClientSecret": "199a619d22dd4e55a4a2c1a7a3d70e63"
+}
+
+
+
+  
