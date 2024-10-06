@@ -23,7 +23,7 @@
     "lavalink": {
         "lavalink": {
       "host": "https://lavalink-0hbv.onrender.com",
-      "port": 443,
+      "port": 2333,
       "password": "GidoBot",
       "secure": false
         }
