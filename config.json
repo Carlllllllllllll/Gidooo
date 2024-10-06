@@ -22,9 +22,9 @@
     },
     "lavalink": {
         "lavalink": {
-            "host": "lavalinkv3-id.serenetia.com",
-            "port": 443,
-            "password": "BatuManaBisa",
+            "host": "37.114.42.191",
+            "port": 6767,
+            "password": "danteisnttaken",
             "secure": true
         }
     },
