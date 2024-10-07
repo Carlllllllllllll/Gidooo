@@ -29,3 +29,46 @@ const loadEventHandlers = () => {
 
 
 loadEventHandlers();
+
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// Function to format uptime
+function formatUptime() {
+    let totalSeconds = Math.floor(process.uptime());
+    
+    const days = Math.floor(totalSeconds / (3600 * 24));
+    totalSeconds %= 3600 * 24;
+    
+    const hours = Math.floor(totalSeconds / 3600);
+    totalSeconds %= 3600;
+    
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+
+    let uptimeString = '';
+
+    // Build the string but omit 0 values
+    if (days > 0) uptimeString += `${days} day${days > 1 ? 's' : ''}, `;
+    if (hours > 0) uptimeString += `${hours} hour${hours > 1 ? 's' : ''}, `;
+    if (minutes > 0) uptimeString += `${minutes} minute${minutes > 1 ? 's' : ''}, `;
+    uptimeString += `${seconds} second${seconds > 1 ? 's' : ''}`;
+
+    // Remove the last comma and space if present
+    uptimeString = uptimeString.replace(/,\s*$/, '');
+
+    return uptimeString;
+}
+
+// API endpoint to get bot uptime
+app.get('/uptime', (req, res) => {
+    res.json({ uptime: formatUptime() });
+});
+
+app.listen(PORT, () => {
+    console.log(`Server running at https://gido-v2-i8wm.onrender.com`);
+});
+
+
+loadEventHandlers();
