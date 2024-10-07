@@ -22,11 +22,11 @@
     },
     "lavalink": {
         "lavalink": {
-            {
-  "identifier": "Koi Node V3",
-  "password": "fypmoon.org",
-  "host": "nodev3.fypmoon.org",
-  "port": 1164,
+{
+  "identifier": "jompo.cloud - Lavalink",
+  "password": "jompo",
+  "host": "lavalink-legacy.jompo.cloud",
+  "port": 2333,
   "secure": false
 }
         }
