@@ -2,12 +2,13 @@
     "token": "",
     "language": "en",
     "prefix": "!",
-    "mongodbUri": "mongodb+srv://cerokero8:U9bvyL5DDvmWriLf@cluster0.mhaa0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "mongodbUri": "mongodb+srv://cerokero8:3zcAEZXgFEKjIjPI@gidobot.mhaa0.mongodb.net/?retryWrites=true&w=majority&appName=GidoBot",
     "geniusToken": "0CHr9jtPjR7EKraXUVv6__8ELmEwFeUwt5vYAhk-is_fGOq-10-epdMzESkMPUnf",
     "excessCommands": {
         "utility": true,
         "other": true,
         "hentai": false,
+        "lavalink": true,
         "troll": true
     },
     "categories": {
@@ -17,17 +18,14 @@
         "moderation": true,
         "fun": true,
         "distube music": true,
-        "lavalink": true,
         "setups": true
     },
     "lavalink": {
         "lavalink": {
-              "identifier": "jompo.cloud - Lavalink",
-               "password": "jompo",
-               "host": "lavalink-legacy.jompo.cloud",
-               "port": 2333,
-               "secure": false
-
+            "host": "lavalink.jirayu.net",
+            "port": 2334,
+            "password": "youshallnotpass",
+            "secure": false
         }
     },
     "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
