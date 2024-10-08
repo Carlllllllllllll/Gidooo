@@ -22,9 +22,9 @@
     },
     "lavalink": {
         "lavalink": {
-               "host": "lavalink.jirayu.net",
-               "port": 2334,
-               "password": "youshallnotpass",
+               "host": "lavalink.serenetia.com",
+               "port": 80,
+               "password": "BatuManaBisa",
                "secure": false
 
         }
