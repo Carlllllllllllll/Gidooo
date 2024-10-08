@@ -7,7 +7,7 @@
     "excessCommands": {
         "utility": true,
         "other": true,
-        "hentai": false,
+        "hentai": true,
         "troll": true
     },
     "categories": {
@@ -22,10 +22,10 @@
     },
     "lavalink": {
         "lavalink": {
-      "host": "lavalink.serenetia.com",
-      "port": 80,
-      "password": "BatuManaBisa",
-      "secure": false
+            "host": "lavalinkv3-id.serenetia.com",
+            "port": 443,
+            "password": "BatuManaBisa",
+            "secure": true
         }
     },
     "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
