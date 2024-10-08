@@ -22,11 +22,10 @@
     },
     "lavalink": {
         "lavalink": {
-               "host": "lavalink.serenetia.com",
-               "port": 80,
-               "password": "BatuManaBisa",
-               "secure": false
-
+      "host": "lavalink.serenetia.com",
+      "port": 80,
+      "password": "BatuManaBisa",
+      "secure": false
         }
     },
     "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
