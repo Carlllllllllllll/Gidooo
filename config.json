@@ -22,10 +22,10 @@
     },
     "lavalink": {
         "lavalink": {
-            "host": "lavalinkv3-id.serenetia.com",
-            "port": 443,
-            "password": "BatuManaBisa",
-            "secure": true
+            "host": "lavalink.jirayu.net",
+            "port": 2334,
+            "password": "youshallnotpass",
+            "secure": false
         }
     },
     "spotifyClientId": "f71a3da30e254962965ca2a89d6f74b9",
